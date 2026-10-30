@@ -41,7 +41,8 @@ else:
     print("RAM : utilisation normale")
 
 ###utilisation de la fonction open() pour créer un fichier texte et écrire les informations dans le fichier
-nom_fichier = "rapport_pc.txt"
+date_fichier = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+nom_fichier = "rapport_pc_" + date_fichier + ".txt"
 with open(nom_fichier, "w", encoding="utf-8") as fichier:
     fichier.write("=== ÉTAT DE MON PC ===\n")
     fichier.write("Date du rapport : " + date_rapport + "\n")

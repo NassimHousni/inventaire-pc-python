@@ -39,3 +39,9 @@ Python doit être installé. Dans un terminal PowerShell ouvert dans le dossier 
 
 Le script affiche les résultats et crée `rapport_pc.txt`.
 Ce rapport est remplacé à chaque lancement et reste sur le PC grâce au `.gitignore`.
+
+Le script affiche les résultats et crée un rapport dont le nom contient
+la date et l’heure, par exemple `rapport_pc_2026-10-30_16-14-01.txt`.
+
+Les anciens rapports sont conservés. Les rapports restent sur le PC
+et sont ignorés par Git grâce au fichier `.gitignore`.

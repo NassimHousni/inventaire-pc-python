@@ -1,3 +1,3 @@
 .venv/
 __pycache__/
-rapport_pc.txt
+rapport_pc*.txt
